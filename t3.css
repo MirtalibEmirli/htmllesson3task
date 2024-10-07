@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.imgDiv {
+  display: flex;
+
+  gap: 5px;
+}
+.imgDiv p {
+  font: bolder;
+  font-weight: bolder;
+  font-family: "Noto Serif Oriya", serif;
+  font-size: larger;
+  margin-top: 10px;
+}
+body {
+  position: relative;
+}
+nav {
+  width: 100%;
+  position: fixed; /* Sayfanın üst kısmında sabit kalsın */
+
+  background-color: white; /* Arka plan rengi */
+  padding: 15px 10px; /* Üst ve alt boşluk ekle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+.navlogo {
+  height: 30px;
+  width: 35px;
+}
+
+.linksDiv {
+  margin-top: 10px;
+  width: 100%;
+
+  display: flex;
+  gap: 15px;
+}
+.linksDiv a {
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
+
+.divButtons {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+.divButtons a {
+  text-decoration: none;
+}
+
+.btn1 {
+  background-color: white;
+  color: rgb(116, 173, 30);
+  width: 110px;
+  height: 35px;
+  border-color: greenyellow;
+  border-radius: 10px;
+}
+.btn2 {
+  background-color: rgb(45, 169, 45);
+  color: white;
+  width: 110px;
+  height: 35px;
+  border-color: transparent;
+  border-radius: 10px;
+  font: 900;
+  font-weight: 300;
+}
+
+.s1div {
+  margin-right: 190px;
+}
+
+.btnRegister {
+  background-color: rgb(45, 169, 45);
+  color: white;
+  width: 110px;
+  height: 35px;
+  border-color: transparent;
+  border-radius: 10px;
+  font: 900;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-left: 150px;
+}
+#sc1 {
+  margin-top: 95px;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  display: flex;
+}
+
+#sec2 {
+}
+.companydiv {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 10px;
+  gap: 190px;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardsdiv div:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+ /* hover elave ed */
+
+.cardsdiv {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 20px;
+  gap: 120px;
+}
+
+.card1 {
+  width: 230px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid aliceblue;
+  box-shadow: 5px;
+  background-color: white;
+}
+.card2 {
+  width: 230px;
+  background-color: white;
+}
+.card3 {
+  width: 230px;
+  background-color: white;
+  padding: 20px;
+}
+.cardsdiv div .card1,
+.card2,
+.card3 {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid aliceblue;
+  box-shadow: 5px;
+}
+
+#sc3 {
+  gap: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sc3div {
+  width: 480px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sc3-img-class {
+  margin-top: 100px;
+}
+
+#sec4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.sec4maindiv {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 160px;
+  gap: 90px;
+}
+
+.sec4div2 {
+  width: 350px;
+}
+.heightside {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 70px;
+}
+.bottomside {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+footer {
+  padding: 64px 165px 64px 165px;
+  gap: 125px;
+  display: flex;
+  background-color: #263238;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card1div img {
+  margin-right: 10px;
+}
+.card1div div {
+  margin-bottom: 10px;
+}
+
+.card1div p {
+  color: #f5f7fa;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.card2div p{
+  color:  #F5F7FA;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.rightcards
+{
+  display: flex;
+  gap: 50px;
+}
+
+
+.navUl {
+  width: 80%;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  display: flex; /* Flexbox kullanarak içindeki öğeleri hizala */
+  justify-content: space-between; /* İçerikleri yatayda ortala */
+  align-items: center; /* İçerikleri dikeyde ortala */
+  /* gap: 280px; */
+}
+
+.divfooter1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 100px;
+  justify-content:flex-start;
+  align-items: start;
+}
+
+
+.card2div{
+  margin-left:25px   ;
+
+}
+
+
+
+.sec5maindiv{
+  display: flex;
+  padding: 15px 15px;
+}
+
+
+/* 
+#section3{
+
+}
+border: 1 px solid black;
+} 
+ <!--
+  <section>
+    <a href="#section3">got to s 3</a>
+  </section>
+  <section></section>
+  <section id="section3">section3</section>--> 
+*/
